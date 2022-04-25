@@ -1,0 +1,17 @@
+.b{
+	position: absolute;
+	width: 50%;
+}
+.a{
+	position:relative; 
+	width: 59.5%;
+	height: 99vh;
+	float: right;
+}
+
+@media screen and (max-width:1500px) {
+ .b,.a {
+ 	position: relative;
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<style>
+  body{
+    margin-top: 10vh;
+  }
+.mySlides {display:none;}
+.a{
+  position: absolute;
+  right: 3vw;
+  top: 5vw;
+}
+.b{
+  position: relative;
+  float: left;
+}
+ @media screen and (max-width:1500px) {
+ .b,.a {
+  position: relative;
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+    left: 5vw;
+</style>
+</head>
+
+<body>
+</div>
+<h1 style="color: skyblue;">BHASHYAM CO</h1>
+<br><br>
+<div class="b">
+<h2>BHASHYAM  CO  IS A COLLEGE WHERE 11<sup>th</sup> AND 
+  12<sup>th</sup> CLASS STUDENTS<br> STUDIES.</h2>
+</div>
+<div class="a" style="max-width:500px">
+  <img class="mySlides" src="co.jpg" style="width:100%">
+  <img class="mySlides" src="class1.png" style="width:100%">
+  <img class="mySlides" src="class2.jpeg" style="width:100%">
+  <img class="mySlides" src="class3.jpg" style="width: 100%">
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 1500); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>

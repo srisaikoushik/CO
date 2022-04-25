@@ -1,0 +1,189 @@
+body{
+	margin-top: 5vh;
+	font-size: 3.75vw;
+	background-color: grey;
+	color: white;
+}
+ul{
+	list-style-type: none;
+}
+
+ul li a{
+	font-size: 2.6vw;
+	text-decoration: none;
+   border-radius: 40vw;
+   font-style: italic;
+   background-color: darkgrey;
+   color: black;
+   padding: 1vw 3vw;
+    transition-duration: 1s  ;
+}
+
+.a{ 
+	position: absolute;
+ 	top: 25%;
+ 	left:0%; 
+}
+.b{
+	position: absolute;
+ 	top: 50%;
+ 	left:9%; 
+}
+.c{
+	position: absolute;
+ 	top: 60%;
+ 	left:31%; 
+}
+.d{
+	position: absolute;
+ 	top: 34%;
+ 	left:47%; 
+}
+.e{
+	position: absolute;
+ 	top: 80%;
+ 	left:40%; 
+}
+.f{
+	position: absolute;
+ 	top: 70%;
+ 	left:63%; 
+}
+.c1{ 
+	display: none;
+	color:#7B3F00 ;
+	font-size: 5vw;
+	position: absolute;
+	top: -330%;
+ 	left:34%;
+}
+.e1{
+	display: none;
+	color: 	#555d50 ;
+	font-size: 5vw;
+	position: absolute;
+ 	top: -606%;
+ 	left:32%; 
+}
+.m1{
+	display: none;
+	color: #eaa221 ;
+	font-size: 5vw;
+	position: absolute;
+ 	top: -725%;
+ 	left:35%; 
+}
+.p1{
+    display: none;
+	color:pink;
+	font-size: 5vw;
+	position: absolute;
+ 	top: -420%;
+ 	left:25%; 
+}
+.p2{
+    display: none;
+	color:#FFE5B4;
+	font-size: 5vw;
+	position: absolute;
+ 	top: -950%;
+ 	left:55%; 
+}
+.s1{ 
+    display: none;
+	color:skyblue;
+	font-size: 5vw;
+	 position: absolute;
+ 	top: -850%;
+ 	left:-10%; 
+}
+
+.a:hover a{
+	font-size: 3vw;
+	text-decoration: none;
+   border-radius: 40vw;
+   font-style: italic;
+   background-color:white;
+   color: #7B3F00;
+   padding: 1vw 3vw;
+    transition-duration: 1s ;
+}
+
+.a:hover .c1{
+
+ display: block;
+}
+
+.b:hover a{
+	font-size: 3vw;
+	text-decoration: none;
+   border-radius: 40vw;
+   font-style: italic;
+   background-color:white;
+   color:	#555d50;
+   padding: 1vw 3vw;
+    transition-duration: 1s ;
+}
+
+.b:hover p{
+	display: block;	
+}
+
+.c:hover a{
+	font-size: 3vw;
+	text-decoration: none;
+   border-radius: 40vw;
+   font-style: italic;
+   background-color:white;
+   color:  #eaa221;
+   padding: 1vw 3vw;
+    transition-duration: 1s ;
+}
+
+.c:hover p{
+	
+	display: block;
+}
+
+.d:hover a{
+	font-size: 3vw;
+	text-decoration: none;
+   border-radius: 40vw;
+   font-style: italic;
+   background-color:white;
+   color:pink ;
+   padding: 1vw 3vw;
+    transition-duration: 1s ;
+}
+
+.d:hover p{
+	display: block;
+}
+.e:hover a{
+	font-size: 3vw;
+	text-decoration: none;
+   border-radius: 40vw;
+   font-style: italic;
+   background-color:white;
+   color: #FFE5B4;
+   padding: 1vw 3vw;
+    transition-duration: 1s ;
+}
+
+.e:hover p{
+	display: block;
+}
+.f:hover a{
+	font-size: 3vw;
+	text-decoration: none;
+   border-radius: 40vw;
+   font-style: italic;
+   background-color:white;
+   color:skyblue ;
+   padding: 1vw 3vw;
+    transition-duration: 1s ;
+}
+
+.f:hover p{
+  display: block;
+}

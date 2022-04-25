@@ -1,0 +1,47 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+	background-image: url(../images/tree.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul li a{
+     font-size: 3.5vw;
+	font-variant: small-caps;
+	text-decoration: none;
+   border-radius: 30vw;
+   font-style: italic;
+   background-color:transparent;
+   color: white;
+   padding: 1vw 3vw;
+    transition-duration: 1s ;
+
+}
+ul li:hover a{
+	font-size: 4vw;
+	text-decoration: none;
+   border-radius: 40vw;
+   background-color:transparent;
+   color:grey;
+   padding: 1.5vw 3.5vw;
+
+}
+.a a{
+	position: absolute;
+    top: 60%;
+    left: 40%;
+}
+.b a{
+	position: absolute;
+	top: 30%;
+	left: 26%;
+}
+.c a{
+	position: absolute;
+	top: 70%;
+	left: 10%;
+}
